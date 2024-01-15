@@ -1,0 +1,104 @@
+/* poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+img {
+    width: 100%;
+    pointer-events: none;
+}
+
+/* just for centre the div */
+#fakeBody {
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: #f2f5f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* the real card */
+#card {
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+/* the image in the card */
+#card-img {
+    position: relative;
+}
+
+/* the overlay */
+.wave {
+    position: absolute;
+    bottom: -1px;
+}
+
+/* the content in the card */
+#card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0 2em;
+}
+
+.card-content-title {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-content-description {
+    font-family: 'Lato';
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* the colors for the texts */
+.title {
+    color: #111729;
+}
+
+.description {
+    color: #677489; 
+}
+
+/* the profile in the card */
+#card-profile {
+    display: flex;
+    gap: 1em;
+    padding: 2em;
+    border-top: 1px solid #F2F5F9;
+    margin-top: 2em;
+}
+
+#profile-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#profile-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.profile-title {
+    font-weight: bold;
+    font-family: 'Lato';
+}
+
+.profile-description {
+    font-family: 'Lato';
+    font-size: 12px;
+}
